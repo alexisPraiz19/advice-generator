@@ -1,0 +1,40 @@
+.btn-request_advice{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transition: box-shadow .2s ease;
+    -webkit-transition: box-shadow .2s ease;
+    -moz-transition: box-shadow .2s ease;
+    -ms-transition: box-shadow .2s ease;
+    -o-transition: box-shadow .2s ease;
+}
+
+.btn-request_advice:hover{
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+.icon-dice{
+    transition: transform 1s ease;
+    -webkit-transition: transform 1s ease;
+    -moz-transition: transform 1s ease;
+    -ms-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+}
